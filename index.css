@@ -12,3 +12,19 @@ h1 {
 h1:hover {
   background-color: gray;
 }
+
+.big_button {
+  color: rgb(255, 255, 255);
+  background-color: gray;
+  font-family: sans-serif;
+  text-align: center;
+  width: 500px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  transition-duration: 500ms;
+}
+
+#edwin {
+  color: pink;
+  background-color: red;
+}
