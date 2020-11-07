@@ -28,3 +28,18 @@ h1:hover {
   color: pink;
   background-color: red;
 }
+
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+  background-color: greenyellow;
+  display: flex;
+}
+
+.item {
+  margin: 0 2rem 0 2rem;
+  background-color: hotpink;
+  flex-grow: 1;
+  text-align: center;
+  padding: 2rem 0
+}
