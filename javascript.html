@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./javascript.css" />
+    <title>JavaScript Section</title>
+  </head>
+  <body>
+    <h1>JavaScript Section</h1>
+    <h2 id="click1">Click me to make me smaller.</h2>
+    <p id="click2">Click me to make me BIGGER!</p>
+    <p id="click3">Click me to make me bold!</p>
+    <h4 class="new_class"></h4>
+  </body>
+  <script>
+    document.getElementById("click1").addEventListener("click", (e) => {
+      document.getElementById("click1").outerHTML = `<p>I'm smaller now!</p>`;
+    });
+
+    document.getElementById("click2").addEventListener("click", (e) => {
+      document.getElementById("click2").outerHTML = `<h2>I'm bigger now!</h2>`;
+    });
+
+    document.getElementById("click3").addEventListener("click", (e) => {
+      document.getElementById("click3").outerHTML = `<strong>I'm bold now!</strong>`
+    })
+
+
+  </script>
+</html>
